@@ -1,5 +1,3 @@
-#CREANDO LOGIN CON PYTHON Y TKINTER.
-
 #IMPORTAMOS LIBRERÍAS NECESARIAS.
 from tkinter import *
 import os

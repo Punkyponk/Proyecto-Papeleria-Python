@@ -85,9 +85,9 @@ Seleccione: """)
         print(
             f"Artículo menos vendido: {articulo_menos_vendido}, con {menos_vendido} unidades")
         print(
-            f"Artículo con más ingresos: {articulo_con_mas_ingresos}, con {con_mas_ingresos} euros")
+            f"Artículo con más ingresos: {articulo_con_mas_ingresos}, con {con_mas_ingresos} pesos")
         print(
-            f"Artículo con menos ingresos: {articulo_con_menos_ingresos}, con {con_menos_ingresos} euros")
+            f"Artículo con menos ingresos: {articulo_con_menos_ingresos}, con {con_menos_ingresos} pesos")
     elif eleccion == "4":
         nombre_articulo = input("Nombre del artículo que se elimina: ")
         if nombre_articulo in nombres:

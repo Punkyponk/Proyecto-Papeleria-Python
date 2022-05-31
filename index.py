@@ -8,9 +8,9 @@ class Product:
     db_name = 'database.db'
 
     def __init__(self, window):
-        # Initializations 
+        # Iniciar Ventana
         self.wind = window
-        self.wind.title('Products Application')
+        self.wind.title('Aplicacion de productos')
 
         # Creación de un contenedor de marcos 
         frame = LabelFrame(self.wind, text = 'Registrar un nuevo producto')

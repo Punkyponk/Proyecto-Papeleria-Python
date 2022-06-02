@@ -391,7 +391,7 @@ def billarea(self):
             END, f"Máscara-Facial\t\t {self.Paqtinta.get()}\t{self.ma}\n")
     if self.Paqgeo.get() != 0:
         self.txtarea.insert(
-            END, f"Jabón-Manos\t\t {self.Paqgeo.get()}\t{self.sa}\n")
+            END, f"JuegGeo\t\t {self.Paqgeo.get()}\t{self.sa}\n")
 
     self.txtarea.insert(END, f"------------------------------------\n")
     if self.a.get() != "0.0 ":
